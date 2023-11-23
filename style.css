@@ -1,0 +1,61 @@
+*{
+    margin:2em;
+}
+
+h2,table{
+    border-width: 10px;
+    border-style: double;
+    border-color:blueviolet;
+    border-collapse: collapse;
+}
+thead{
+    background-color:yellowgreen !important;
+}
+#hours{
+    background-color:chocolate;
+}
+.day{
+    background-color:cornflowerblue;
+}
+#lunch{
+    background-color:crimson;
+    color:white;
+    text-align:center;
+}
+#project{
+    background-color:darkgoldenrod;
+}
+td{
+    padding:2em;
+    background-color:aquamarine;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3em;
+    font-weight: 700;
+}
+pre{
+    margin:0;
+    border:10px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:brown;
+}
+#creep{
+    font-family:Creepster;
+    text-align:center;
+}
+ul{
+    list-style-type: none;
+}

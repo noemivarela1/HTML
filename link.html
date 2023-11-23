@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=pp, initial-scale=1.0">
     <title>Link page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <p>This is the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;link page</p>
     <pre>
         I like singing
             I like running too
     </pre>
+    <p id="creep">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo aliquam facere, laboriosam amet ratione quisquam incidunt qui. Exercitationem, velit magni?</p>
+    <a href="https://www.iessanclemente.net">IES San Clemente</a>
     <cite>Information is power</cite>
     <table border="1">
         <caption>DAM1</caption>
@@ -22,12 +30,12 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="6">Hours</th>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
+                <th rowspan="6" id="hours">Hours</th>
+                <th class="day">Mon</th>
+                <th class="day">Tue</th>
+                <th class="day">Wed</th>
+                <th class="day">Thu</th>
+                <th class="day">Fri</th>
             </tr>
             <tr>
                 <td>Math</td>
@@ -44,13 +52,13 @@
                 <td>Arts</td>
             </tr>
             <tr>
-                <td colspan="5">Lunch</td>
+                <td colspan="5" id="lunch">Lunch</td>
             </tr>
             <tr>
                 <td>Math</td>
                 <td>Science</td>
                 <td>Math</td>
-                <td colspan="2" rowspan="2">Project</td>
+                <td colspan="2" rowspan="2" id="project">Project</td>
             </tr>
             <tr>
                 <td>Math</td>
@@ -62,7 +70,9 @@
 
         </tfoot>
         <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aliquam culpa alias soluta magni aut possimus, officiis cupiditate iste quasi.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aliquam culpa alias soluta magni aut possimus,
+            officiis cupiditate iste quasi.</p>
         <img src="https://picsum.photos/id/1029/600/400" alt="City" height="400" width="600">
-    </body>
+</body>
+
 </html>
